@@ -63,3 +63,17 @@ button{
     cursor: pointer;
     grid-column: span 2;
 }
+
+button:hover{
+    background: linear-gradient( #c1bbff, #b6b2fd);
+}
+#solve:hover{
+    background: linear-gradient(to right, #fb4c54,#fb424b);
+}
+
+button:active{
+    background: linear-gradient( #a7a1fc, #a09bfc);
+}
+#solve:active{
+    background: linear-gradient(to right, #fb5860, #fe5a62);
+}
